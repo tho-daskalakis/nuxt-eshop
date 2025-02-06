@@ -5,8 +5,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-02-06',
   devtools: { enabled: true },
   modules: [
-    '@primevue/nuxt-module',
-    '@nuxt/icon'
+    '@primevue/nuxt-module'
   ],
   primevue: {
     options: {
@@ -19,5 +18,6 @@ export default defineNuxtConfig({
     serverBundle: {
       collections: ['mdi']
     }
-  }
+  },
+  css: ['assets/css/styles.scss']
 });

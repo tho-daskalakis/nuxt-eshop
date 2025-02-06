@@ -16,7 +16,7 @@
 import { reactive } from 'vue';
 
 const items = reactive([
-  { label: 'New', icon: 'mdi:add' },
+  { label: 'New', icon: 'pi pi-plus' },
   { label: 'Search', icon: 'pi pi-search' }
 ]);
 </script>
