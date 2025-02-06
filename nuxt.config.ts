@@ -5,13 +5,19 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-02-06',
   devtools: { enabled: true },
   modules: [
-    '@primevue/nuxt-module'
+    '@primevue/nuxt-module',
+    '@nuxt/icon'
   ],
   primevue: {
     options: {
       theme: {
         preset: Aura
       }
+    }
+  },
+  icon: {
+    serverBundle: {
+      collections: ['mdi']
     }
   }
 });
